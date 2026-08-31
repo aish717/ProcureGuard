@@ -1,10 +1,6 @@
-\# ProcureGuard
+# ProcureGuard
 
-
-
-\## AI-Powered Multi-Agent Invoice Audit System
-
-
+## AI-Powered Multi-Agent Invoice Audit System
 
 ProcureGuard is an AI-assisted invoice auditing system that compares invoices with purchase orders and company policies to identify discrepancies and provide a recommendation.
 
@@ -13,42 +9,37 @@ ProcureGuard is an AI-assisted invoice auditing system that compares invoices wi
 > \*\*Note:\*\* ProcureGuard provides recommendations only and does not automatically execute payments.
 
 
+---
 
-\---
-
-
-
-\## ✨ Features
+## ✨ Features
 
 
 
-\- 📄 PDF invoice, PO, and policy processing
+- 📄 PDF invoice, PO, and policy processing
 
-\- 🤖 Multi-agent audit workflow
+- 🤖 Multi-agent audit workflow
 
-\- 🔍 Invoice and purchase-order reconciliation
+- 🔍 Invoice and purchase-order reconciliation
 
-\- 📋 Policy compliance checking
+- 📋 Policy compliance checking
 
-\- 🧮 Deterministic numeric verification
+- 🧮 Deterministic numeric verification
 
-\- 🧑‍💼 Human-in-the-loop decision checkpoint
+- 🧑‍💼 Human-in-the-loop decision checkpoint
 
-\- 📝 Audit trajectory logging
+- 📝 Audit trajectory logging
 
-\- 📊 Baseline vs. ProcureGuard evaluation
+- 📊 Baseline vs. ProcureGuard evaluation
 
-\- 🖥️ Streamlit interface
+- 🖥️ Streamlit interface
 
-\- 🏠 Local LLM inference with Ollama
-
-
-
-\---
+- 🏠 Local LLM inference with Ollama
 
 
 
-\## 🔄 Workflow
+---
+
+## 🔄 Workflow
 
 
 
@@ -56,35 +47,35 @@ ProcureGuard is an AI-assisted invoice auditing system that compares invoices wi
 
 Invoice + Purchase Order + Policy
 
-&#x20;               ↓
+;               ↓
 
-&#x20;       Document Extraction
+       Document Extraction
 
-&#x20;               ↓
+               ↓
 
-&#x20;       Extraction Agent
+       Extraction Agent
 
-&#x20;               ↓
+               ↓
 
-&#x20;     Reconciliation Agent
+     Reconciliation Agent
 
-&#x20;               ↓
+               ↓
 
-&#x20;         Policy Agent
+         Policy Agent
 
-&#x20;               ↓
+               ↓
 
-&#x20;      Verification Agent
+      Verification Agent
 
-&#x20;               ↓
+               ↓
 
-&#x20;        Decision Agent
+        Decision Agent
 
-&#x20;               ↓
+               ↓
 
-&#x20;        Human Review
+        Human Review
 
-&#x20;               ↓
+               ↓
 
-&#x20;         Recommendation
+         Recommendation
 
