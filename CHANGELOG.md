@@ -1,43 +1,84 @@
-# Improvement Changelog
+\# Changelog
 
-> Fill the result numbers only after running the corresponding experiment.
 
-## Baseline — Single general-purpose prompt
-- **Why:** Establish a simple, credible comparison point.
-- **Change:** Invoice + PO + policy sent to one auditor prompt.
-- **Evidence:** `evaluation/results.csv`
-- **Decision:** Starting point.
 
-## Iteration 1 — Structured extraction
-- **Why:** Reduce repeated interpretation of raw document text.
-- **Change:** Added Extraction Agent.
-- **Evidence:** Record baseline vs extraction accuracy.
-- **Decision:** Keep/revise/remove based on results.
+All notable changes to ProcureGuard are documented here.
 
-## Iteration 2 — Reconciliation
-- **Why:** Make invoice/PO comparison explicit.
-- **Change:** Added Reconciliation Agent.
-- **Evidence:** Record accuracy and failure cases.
-- **Decision:** Keep/revise/remove.
 
-## Iteration 3 — Policy reasoning
-- **Why:** Separate factual reconciliation from policy interpretation.
-- **Change:** Added Policy Agent.
-- **Evidence:** Record policy-case accuracy.
-- **Decision:** Keep/revise/remove.
 
-## Iteration 4 — Independent verification
-- **Why:** Check important calculations and findings before the final recommendation.
-- **Change:** Added Verification Agent plus deterministic calculator tools.
-- **Evidence:** Record accuracy and difficult-case behavior.
-- **Decision:** Keep/revise/remove.
+\## \[1.0.0] - 2026-08-31
 
-## Iteration 5 — Extra risk agent
-- **Why:** Test whether another reasoning agent adds useful signal.
-- **Change:** Temporary additional risk-analysis stage.
-- **Evidence:** Compare accuracy, latency and cost.
-- **Decision:** Remove if it does not produce meaningful improvement.
 
-## Final
-- Combine only the components supported by the evaluation evidence.
-- Report actual measured accuracy, runtime and cost.
+
+\### Added
+
+
+
+\- Multi-agent invoice audit workflow
+
+\- PDF invoice, purchase order, and policy extraction
+
+\- Invoice and PO reconciliation
+
+\- Policy compliance checking
+
+\- Deterministic numeric verification
+
+\- Decision Agent with `APPROVE`, `HUMAN\_REVIEW`, and `REJECT` recommendations
+
+\- Human-in-the-loop checkpoint
+
+\- Audit trajectory logging
+
+\- Streamlit user interface
+
+\- Local Ollama / Qwen 2.5 1.5B integration
+
+\- Synthetic dataset with 15 invoice-audit cases
+
+\- Baseline vs. ProcureGuard evaluation
+
+\- Evaluation documentation and project structure
+
+
+
+\### Safety
+
+
+
+\- No automatic payment execution
+
+\- Conservative human-review recommendations for ambiguous or material findings
+
+\- Important financial calculations verified deterministically
+
+
+
+\### Evaluation
+
+
+
+\- Added 15 synthetic test cases
+
+\- Added baseline comparison
+
+\- Current benchmark:
+
+&#x20; - Baseline accuracy: 6.7%
+
+&#x20; - ProcureGuard accuracy: 46.7%
+
+
+
+\### Documentation
+
+
+
+\- Added project README
+
+\- Added project plan
+
+\- Added setup and usage instructions
+
+\- Added evaluation documentation
+
