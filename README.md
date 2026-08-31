@@ -47,7 +47,7 @@ ProcureGuard is an AI-assisted invoice auditing system that compares invoices wi
 
 Invoice + Purchase Order + Policy
 
-;               ↓
+               ↓
 
        Document Extraction
 
