@@ -1,0 +1,9 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+.DS_Store
+evaluation/results.csv
+trajectories/*
+!trajectories/.gitkeep
