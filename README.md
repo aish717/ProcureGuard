@@ -1,10 +1,6 @@
-\# ProcureGuard
+# ProcureGuard
 
-
-
-\## AI-Powered Multi-Agent Invoice Audit System
-
-
+## AI-Powered Multi-Agent Invoice Audit System
 
 ProcureGuard is an AI-assisted invoice auditing system designed to analyze invoices against purchase orders and company policies.
 
