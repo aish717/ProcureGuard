@@ -5,40 +5,32 @@
 ProcureGuard is an AI-assisted invoice auditing system designed to analyze invoices against purchase orders and company policies.
 
 
-
 The system uses a structured multi-agent workflow to extract information from business documents, reconcile invoice data against purchase-order data, evaluate policy compliance, independently verify important numeric findings, and generate a conservative recommendation for an authorized human reviewer.
-
 
 
 > \*\*Important:\*\* ProcureGuard provides recommendations only. It does not execute payments or make autonomous consequential financial decisions.
 
+---
 
+## Table of Contents
 
-\---
+- \[Overview](#overview)
 
+- \[Problem Statement](#problem-statement)
 
+- \[Solution](#solution)
 
-\## Table of Contents
+- \[Key Features](#key-features)
 
+- \[System Architecture](#system-architecture)
 
+- \[Multi-Agent Workflow](#multi-agent-workflow)
 
-\- \[Overview](#overview)
+- \[Agent Responsibilities](#agent-responsibilities)
 
-\- \[Problem Statement](#problem-statement)
+- \[Deterministic Verification](#deterministic-verification)
 
-\- \[Solution](#solution)
-
-\- \[Key Features](#key-features)
-
-\- \[System Architecture](#system-architecture)
-
-\- \[Multi-Agent Workflow](#multi-agent-workflow)
-
-\- \[Agent Responsibilities](#agent-responsibilities)
-
-\- \[Deterministic Verification](#deterministic-verification)
-
-\- \[Human-in-the-Loop](#human-in-the-loop)
+- \[Human-in-the-Loop](#human-in-the-loop)
 
 \- \[Technology Stack](#technology-stack)
 
